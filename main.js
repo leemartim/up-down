@@ -54,7 +54,7 @@ function play() {
     }
 }
 
-function reset() {
+function reset() {//
     resultarea.textContent = "숫자를 입력하세요."
     chancenum.textContent = "남은 기회는 5번"
     userinput.value = ""
